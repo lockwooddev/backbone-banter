@@ -1,0 +1,10 @@
+<div class="row">
+    <% _.each(posts, function(post) { %>
+        <div class="col-md-12 post">
+            <% if(!_.isUndefined(post.get('tim'))){ %>
+                <img src="http://t.4cdn.org/<%= board %>/<%= post.get('tim') %>s.jpg"/>
+            <% } %>
+            <p><%= post.get('com') %></p>
+        </div>
+    <% }); %>
+</div>

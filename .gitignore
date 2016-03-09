@@ -1,0 +1,47 @@
+# Python
+*.py[co]
+*.so
+.DS_Store
+
+# Build related
+*.egg
+*.egg-info
+dist
+eggs
+parts
+bin
+var
+sdist
+lib
+lib64
+web/
+env/
+develop-eggs
+pip-log.txt
+npm-debug.log
+docs/_build
+docs/modules
+node_modules
+jspm_packages
+snapster.credentials
+.installed.cfg
+.pip_download_cache
+.sass-cache
+_thumbs
+.cache
+.grunt
+
+# Testing related
+.coverage
+htmlcov/
+coverage.xml
+
+# Editors
+.mr.developer.cfg
+.project
+.pydevproject
+.idea
+.ropeproject
+
+# Project specific
+src/orot/settings.py

@@ -1,0 +1,12 @@
+<div class="well">Banter is a Backbone based 4chan reader.
+This reader is for experimental purposes only. The contents of some of the boards are NSFW. The repository can be found on: <a href="https://github.com/lockwooddev/backbone-banter.git">Github</a></div>
+
+<ul class="list-group">
+    <% _.each(boards, function(board) { %>
+        <li class="list-group-item">
+            <a href="#" class="welcome-nav" data-target="<%= board.get('board') %>">
+                <%= board.get('board') %> - <%= board.get('title') %>
+            </a>
+        </li>
+    <% }); %>
+</ul>
